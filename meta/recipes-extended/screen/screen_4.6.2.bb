@@ -21,13 +21,11 @@ SRC_URI = "${GNU_MIRROR}/screen/screen-${PV}.tar.gz \
            file://Provide-cross-compile-alternatives-for-AC_TRY_RUN.patch \
            file://Skip-host-file-system-checks-when-cross-compiling.patch \
            file://Avoid-mis-identifying-systems-as-SVR4.patch \
-           file://0002-comm.h-now-depends-on-term.h.patch \
-           file://0001-fix-for-multijob-build.patch \
            file://0001-configure.ac-fix-configure-failed-while-build-dir-ha.patch \
           "
 
-SRC_URI[md5sum] = "132c893aabfaf2020074790215c8cacd"
-SRC_URI[sha256sum] = "aba9af66cb626155d6abce4703f45cce0e30a5114a368bd6387c966cbbbb7c64"
+SRC_URI[md5sum] = "a0f529d3333b128dfaa324d978ba73a8"
+SRC_URI[sha256sum] = "1b6922520e6a0ce5e28768d620b0f640a6631397f95ccb043b70b91bb503fa3a"
 
 inherit autotools texinfo
 
